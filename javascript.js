@@ -110,7 +110,7 @@ function timed() {
             clearInterval(t);
             nextQuestion();
         }
-    }, 1000)
+    }, 2000)
 }
 
 buttons.forEach((button, i) => {
